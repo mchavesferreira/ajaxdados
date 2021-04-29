@@ -91,7 +91,7 @@ $.getJSON( "https://api.coindesk.com/v1/bpi/currentprice/BRL.json", function( da
 
 });
 
-$.getJSON( "http://embarcadosifsp.duckdns.org/php_app/temperaturasendjson.php", function( data2 ) {
+$.getJSON( "temperaturasendjson.php", function( data2 ) {
   var items = [];
   // console.log(data2.Estacao.temperatura);
  $(".temperatura").html( data2.Estacao.temperatura );
